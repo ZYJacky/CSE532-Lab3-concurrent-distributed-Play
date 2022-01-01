@@ -1,0 +1,22 @@
+
+(the extra empty lines are due to std::cin.ignore() to give enough time to stop)
+[jackie.z@linuxlab004 Director]$ ./Director 2048 127.0.0.1 4 partial_hamlet_act_ii_script.txt partial_macbeth_act_i_script.txt 
+
+
+Macbeth ACT I SCENE I An open Place Thunder and Lightning by William Shakespeare
+
+
+FIRST_WITCH.
+When shall we three meet again? 
+
+
+
+In thunder, lightning, or in rain?
+
+SECOND_WITCH.
+When the hurlyburly's done, 
+stop received
+
+
+
+Director out.

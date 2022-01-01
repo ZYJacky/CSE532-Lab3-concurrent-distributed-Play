@@ -1,0 +1,102 @@
+[jackie.z@linuxlab004 Producer]$ ./Producer 2048
+
+Producer listening on: 127.0.0.1:2048
+To start a play: start [director number] [play number]
+To stop a play: stop [director number] [play number]
+To quit: quit
+
+Director 0 now online.
+
+-------------
+[List of Plays]
+
+Director 0
+0 empty_script.txt [available]
+-------------
+
+Director 1 now online.
+
+-------------
+[List of Plays]
+
+Director 0
+0 empty_script.txt [available]
+
+Director 1
+0 partial_hamlet_act_ii_script.txt [available]
+1 partial_macbeth_act_i_script.txt [available]
+-------------
+
+Director 0 goes offline
+
+-------------
+[List of Plays]
+
+Director 1
+0 partial_hamlet_act_ii_script.txt [available]
+1 partial_macbeth_act_i_script.txt [available]
+-------------
+
+Director 0 now online.
+
+-------------
+[List of Plays]
+
+Director 0
+0 empty_script.txt [available]
+
+Director 1
+0 partial_hamlet_act_ii_script.txt [available]
+1 partial_macbeth_act_i_script.txt [available]
+-------------
+start 1 3
+Play unavailable, please check Play list.
+stop 0 0
+warning: stopping play fails as play is not in progress.
+Play cannot be stop, please check Play list.
+start 0 0
+
+-------------
+[List of Plays]
+
+Director 0
+0 empty_script.txt [in progress]
+
+Director 1
+0 partial_hamlet_act_ii_script.txt [available]
+1 partial_macbeth_act_i_script.txt [available]
+-------------
+
+-------------
+[List of Plays]
+
+Director 0
+0 empty_script.txt [available]
+
+Director 1
+0 partial_hamlet_act_ii_script.txt [available]
+1 partial_macbeth_act_i_script.txt [available]
+-------------
+start 1 0
+
+-------------
+[List of Plays]
+
+Director 0
+0 empty_script.txt [available]
+
+Director 1
+0 partial_hamlet_act_ii_script.txt [in progress]
+1 partial_macbeth_act_i_script.txt [unavailable]
+-------------
+
+-------------
+[List of Plays]
+
+Director 0
+0 empty_script.txt [available]
+
+Director 1
+0 partial_hamlet_act_ii_script.txt [available]
+1 partial_macbeth_act_i_script.txt [available]
+-------------
